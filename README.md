@@ -7,13 +7,13 @@ Download from: https://github.com/mriffle/percolator-dump-peptide-counts/release
 
 ## How to run:
 
-```shell
+```
 java -jar percolatorDumpPeptideCounts.jar -s 0.01 -p 0.01 -x pout.xml >psm_counts.txt
 ```
 
 ## Options:
 
-```shell
+```
 java -jar percolatorDumpPeptideCounts.jar [-hrV] -p=<peptideQValueCutoff>
                                           -s=<psmQValueCutoff>
                                           [-x=<percolatorFile>]
